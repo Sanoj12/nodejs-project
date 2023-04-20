@@ -1,0 +1,74 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container2{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('/images/empty-dark-blue-with-light-shadow-banner-abstract-background_44706-193.avif');
+}
+
+
+ .tags-lists li a{
+    list-style: none;
+    color:mediumspringgreen;
+   display:inline-flex;
+     margin-left: 12px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.container3 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+}
+
+.boxs{
+   text-align: center;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   padding: 15px;
+   border:1px solid #f7f7f7; 
+   box-shadow: 0px 2px 2px 1px lavender;
+   
+}
+
+
+
+
+
+/* angular-blog  */
+
+.container7{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    background-image: url('/images/concept-political-debate-two-candidates-260nw-1398408698.webp');
+}
+
+.container8 {
+    background-color:whitesmoke;
+    height: 100vh;
+    
+}
+
+
+
+.container8 ul li a{
+    padding: 1.3rem;
+    margin-left: 1rem;
+   
+    
+}
+.container10{
+    color: #f7f7f7;
+    height: 100vh;
+}
+
+
+footer{
+    color: white;
+    background-color:black;
+   
+}

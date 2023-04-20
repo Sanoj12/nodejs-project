@@ -1,0 +1,71 @@
+<section class="bg-dark p-1">
+
+<div class="container bg-dark">
+  <div class="row">
+    <div class="header">
+       <div class="col-12 ">
+          <p style="color: white;" class="text-center mt-2">for debate purpose:DEBATE HUB</p>
+       </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+       
+      </div>
+       <a class="navbar-brand ms-auto " href="#">Online Debate </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    </div>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+
+    
+
+
+      
+
+
+          
+ 
+        <a class="nav-link active border-light" aria-current="page" href="/login">
+        
+        {{#if user}}
+           {{user.email}}
+        {{else}}
+             login
+      
+        {{/if}}
+        
+        </a>
+        {{#if user}}
+
+            <a class="nav-link active" aria-current="page" href="/signout">Signout</a>
+
+       {{else}}
+
+              <a class="nav-link active" aria-current="page" href="/signup">signup</a>
+
+     {{/if}}
+
+       
+  
+      </div>
+      
+    </div>
+  </div>
+  
+</nav>

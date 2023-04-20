@@ -1,0 +1,39 @@
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+       
+      </div>
+       <a class="navbar-brand ms-auto " href="#">Discussion about front-end frameworks? </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    </div>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+
+        {{#if user}}
+
+           <a class="nav-link active border-light" aria-current="page" href="/logout">Logout</a>
+
+
+        {{else}}
+
+          <a class="nav-link active border-light" aria-current="page" href="/login">Login</a>
+
+
+        {{/if}}
+ 
+
+       
+       
+      </div>
+      
+    </div>
+  </div>
+  
+</nav>
